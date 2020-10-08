@@ -1,0 +1,1 @@
+web: gunicorn pragmaticinfo.wsgi --log-file -

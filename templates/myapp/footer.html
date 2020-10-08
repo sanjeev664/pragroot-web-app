@@ -1,0 +1,72 @@
+{% extends "base.html" %} {% load static %} {% block content %}
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-4">
+            <h2 class="footer-heading mb-4">ABOUT PRAGMATIC INFOSOFT</h2>
+            <p>
+              Pragmatic Infosoft is a trusted name when you think about best
+              digital marketing services companies. Our company presents the
+              best web designs to our clients. Our web designs are innovative
+              and unique. The websites designed by our experts are inviting,
+              interesting, and can keep the viewers engaged on the web page.
+            </p>
+          </div>
+          <div class="col-md-4 ml-auto">
+            <h2 class="footer-heading mb-4">Features</h2>
+            <ul class="list-unstyled">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="{% url 'contact' %}">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h2 class="footer-heading mb-4 contact-info">Contact us</h2>
+            <div class="d-table">
+              <div class="d-table-cell contact-icon">
+                <a href="skype: pragmaticinfosoft" class="pl-0 pr-3"
+                  ><span class="icon-skype"></span
+                ></a>
+                <a href="skype: pragmaticinfosoft">pragmaticinfosoft</a>
+                <br />
+                <a href="tel: +91 9969801854" class="pl-0 pr-3"
+                  ><span class="icon-phone"></span
+                ></a>
+                <a href="tel: +91 9969801854">+91 9969801854</a>
+                <br />
+                <a href="mailto: pragmaticinfosoft@gmail.com" class="pl-0 pr-3"
+                  ><span class="icon-envelope"></span
+                ></a>
+                <a href="mailto: pragmaticinfosoft@gmail.com"
+                  >pragmaticinfosoft@gmail.com</a
+                >
+              </div>
+            </div>
+            <h2 class="footer-heading mb-4 mt-3">Follow Us</h2>
+            <a href="#" class="pl-0 pr-3"
+              ><span class="icon-facebook"></span
+            ></a>
+            <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+            <a href="#" class="pl-3 pr-3"
+              ><span class="icon-instagram"></span
+            ></a>
+            <a href="#" class="pl-3 pr-3"
+              ><span class="icon-linkedin"></span
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="copyright">
+  <div class="container">
+    <p>
+      Copyright 1999-2020 by Pragmatic Infosoft Pvt. Ltd. All Rights Reserved.
+    </p>
+  </div>
+</div>
+{% endblock content %}
